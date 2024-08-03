@@ -21,6 +21,7 @@ COPY . .
 # Build the project
 RUN ./gradlew bootJar
 
+
 # Expose port 8080 to the outside world
 EXPOSE 8080
 
@@ -30,4 +31,5 @@ ENV SPRING_DATA_MONGODB_URI=mongodb+srv://root:root@nizam.aui23nf.mongodb.net/?r
 ENV SPRING_DATA_MONGODB_DATABASE=CoderHacker
 
 # Command to run the application
+CMD ["./gradlew", "bootRun"]
 CMD ["java", "-jar", "build/libs/Hacker-0.0.1-SNAPSHOT.jar"]
