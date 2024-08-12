@@ -38,7 +38,7 @@ Develop a RESTful API service using Spring Boot to manage the Leaderboard for a 
 * Change the DataSource.url is used MongoDB Altas, So that my Database url is there just REPLACE it your url
 
 ## For APIs Testing
-* Click: https://web.postman.co/workspace/ba37bb63-d84c-47c3-8fd2-27364e6db594/documentation/34329189-ab47c279-b5b9-4c08-8ba5-7cfb1d158686
+* Click: https://elements.getpostman.com/redirect?entityId=34329189-ab47c279-b5b9-4c08-8ba5-7cfb1d158686&entityType=collection
 
 * I added Swagger UI also use to Test APIs : https://localhost:8080
 
